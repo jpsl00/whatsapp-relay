@@ -1,0 +1,30 @@
+{
+  "name": "whatsapp-relay",
+  "version": "1.0.0",
+  "description": "Relays a WhatsApp message from one group to another",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "list-groups": "node dist/list.js"
+  },
+  "keywords": [],
+  "author": "João Pedro \"jpsl00\" <hi@jpsl.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "luxon": "^3.4.4",
+    "qrcode": "^1.5.3",
+    "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#webpack-exodus"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.4.2",
+    "@types/qrcode": "^1.5.5",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "eslint": "^8.57.0",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^5.4.5"
+  }
+}
